@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #d34646;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+.features, .about, .order {
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.features h2, .about h2, .order h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.features .feature {
+    margin: 20px 0;
+}
+
+footer {
+    width: 100%;
+    background-color: #be2424;
+    color: rgb(19, 1, 1);
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
